@@ -1,0 +1,29 @@
+create database login;
+
+use login;
+
+create table cadastro( 
+nome varchar(50) not null,
+email varchar(50) not null,
+senha varchar(50) not null,
+tipo varchar(50) not null,
+foto varchar(50) not null,
+primary key(email)
+);
+
+
+create table tipo(
+	id_tipo varchar(50) not null,
+    administrativo varchar(50) not null,
+    aluno varchar(50) not null,
+    primary key(id_tipo)
+);
+
+
+
+
+
+
+  
+
+            
